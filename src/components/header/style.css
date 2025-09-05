@@ -1,0 +1,58 @@
+.nav-bar{
+    background-color: #1B4436;
+    height: 50px;
+}
+
+.nav-bar > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0 80px;
+}
+
+.nav-bar-link{
+    text-decoration: none;
+    line-height: 50px;
+    list-style-type: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar-link:hover{
+    color: #50AA5A;
+    transform: scale(1.02rem);
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.fazenda-background {
+    background-image: url('/banner.png');
+    height: 400px;
+    width: 100%;
+}
+
+.fazenda-info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 64px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 400px;
+}
+
+.fazenda-heading {
+    background-color: #225243CC;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 12px 40px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px #1B4436;
+    transform: transition 0.5s ease-in-out;
+}
+
+.fazenda-heading:hover {
+    color: #50AA5A;
+}
