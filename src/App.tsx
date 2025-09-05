@@ -2,6 +2,7 @@ import './App.css'
 import Card from './components/card'
 import Header from './components/header'
 import { data } from '../data.ts'
+import Footer from './components/footer/index.tsx'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           ))}
         </div>
       </main>
+      <Footer />
     </>
   )
 }
